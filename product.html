@@ -39,6 +39,7 @@
     </div>
   </nav>
   <!-- end header -->
+  	<!-- start product -->
   <section class="product">
     <div class="container">
       <div class="current_page">
@@ -51,27 +52,95 @@
       <div class="product_content">
         <div class="image_product">
           <div class="main_image">
-            <img src="images/product_4.jpg" alt="">
+            <img id="featured" src="images/promo_1.jpg" alt="">
           </div>
-          <div class="thumbnail">
-            <img src="images/product_1.jpg" alt="">
-            <img src="images/product_2.jpg" alt="">
-            <img src="images/product_3.jpg" alt="">
-            <img src="images/product_3.jpg" alt="">
-            <img src="images/product_3.jpg" alt="">
-          </div>
+            <div class="thumbnaildiv">
+              <div><img class="thumbnail active" src="images/promo_1.jpg" alt=""></div>
+              <div><img class="thumbnail" src="images/promo_1.jpg" alt=""></div>
+              <div><img class="thumbnail" src="images/promo_2.jpg" alt=""></div>
+              <div><img class="thumbnail" src="images/promo_3.jpg" alt=""></div>
+            </div>
         </div>
         <div class="product_info">
-          <h1> Producte name </h1>
-          <h2>price</h2>
+          <h1> 2 Piece Swimsuit </h1>
+          <h2> 50000.DZD </h2>
+          						<!-- In Stock -->
+						<div class="in_stock_container">
+							<div class="in_stock in_stock_true"></div>
+							<span>in stock</span>
+            </div>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nostrum doloribus, atque tempore repudiandae sapiente laudantium possimus, eius animi architecto natus perferendis quibusdam aliquam minus distinctio, maiores amet voluptatibus aperiam.</p>
+          <div class="table-details">
+            <table>
+              <th> DÉTAIL PRODUIT </th>
+              <tr>
+                <td>genre</td>
+                <td>femme</td>
+              </tr>
+              <tr>
+                <td>genre</td>
+                <td>femme</td>
+              </tr>
+              <tr>
+                <td>genre</td>
+                <td>femme</td>
+              </tr>
+            </table>
+          </div>
+          <div class="button"><a href="#"> Demander un devis </a></div>
         </div>
       </div>
-
     </div>
   </section>
-
   <!-- end product -->
+
+  <!-- start variete -->
+  <section class="variete_section">
+    <div class="container">
+      <div class="variete" id="variete">
+        <div class="heading_variete">
+          <div class="gauche"></div>
+          <div class="title"><h2> VOUS AIMEREZ AUSSI </h2></div>
+          <div class="droite"></div>
+        </div>
+        <div class="slide-wrapper">
+          <img id="slideLeft" class="arrow" src="images/arrow-left.png">
+            <div id="slider" class="slider">
+            <a href="#">
+                <div class="caret">
+                  <img src="images/promo_1.jpg" alt="">
+                <div class="info_product">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, debitis?</p>
+                <span>135$</span>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+                <div class="caret">
+                  <img src="images/promo_2.jpg" alt="">
+                <div class="info_product">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, debitis?</p>
+                <span>135$</span>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+                <div class="caret">
+                  <img src="images/promo_3.jpg" alt="">
+                <div class="info_product">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, debitis?</p>
+                <span>135$</span>
+                </div>
+              </div>
+            </a>
+
+            </div>
+          <img id="slideRight" class="arrow" src="images/arrow-right.png">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end variety -->
 
   <!-- start contact -->
   <div class="contact">
@@ -94,6 +163,6 @@
   <!-- Start Footer -->
     <div class="footer">&copy; 2021 <span> Chougrani Or </span> Tous droits réservés </div>
   <!-- End Footer -->
-	<script src="js/product.js"></script>
+  <script src="js/product.js"></script>
 </body>
 </html>
